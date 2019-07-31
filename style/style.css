@@ -123,7 +123,8 @@ body {
     font-weight: 400;
 }
 .header__right__button:hover {
-    opacity: 0.5;
+    box-shadow: 0 0 10px 5px #f16d7f;
+    transition: 0.5s;
 }
 .header__cart {
     width: 32px;
@@ -131,7 +132,10 @@ body {
     margin-right: 20px;
 }
 .header__cart:hover {
-    opacity: 0.7;
+    box-shadow: 0 0 10px 1px #000000;
+    transition: 0.5s;
+    border-radius: 15%;
+    background-color: rgb(0, 0, 0, 0.3);
 }
 /* Меню */
 .menu {
@@ -152,7 +156,9 @@ body {
 }
 
 .menu__link:hover {
-    opacity: 0.5;
+    box-shadow: 0 0 10px 10px #9f9f9f;
+    transition: 0.3s;
+    border-radius: 75%;
 }
 
 /* slider  1 */
@@ -391,9 +397,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+.slider3__content__items__opacity:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
 
-.slider3__content__items__opacity:hover {
-    opacity: 0.83;
+.slider3__content__items__opacity__button:hover {
+    box-shadow: 0 0 10px 5px rgb(204, 14, 14) ;
+    transition: 1s;
 }
 
 .slider3__content__items__opacity__button {
@@ -427,6 +438,9 @@ body {
     color: #f16d7f;
     margin-left: 10px;
 }
+.slider3-8__img {
+    background-position: 15px 0;
+}
 
 .slider3__button {
     width: 212px;
@@ -440,7 +454,8 @@ body {
 }
 
 .slider3__button:hover {
-    opacity: 0.9;
+    box-shadow: 0 0 10px 5px #050404;
+    transition: 1s;
 }
 
 .slider3__form {
