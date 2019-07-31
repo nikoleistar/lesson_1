@@ -565,6 +565,7 @@ li {
     align-items: center;
     margin-bottom: 123px;
 }
+
 .section__5__container {
     width: 1140px;
     display: flex;
@@ -572,6 +573,7 @@ li {
     align-items: center;
     margin-bottom: 70px;
 }
+
 .section__5__left {
     width: 497px;
     display: flex;
@@ -659,9 +661,97 @@ li {
     background-color: #f16d7f;
     border-radius: 0.0px 23.0px 23.0px 0.0px;
     border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+
 }
 
 .section__5__form__button:hover {
     box-shadow: 0 0 10px 3px #f16d7f;
+    transition: 0.5s;
+}
+
+/* section 6 */
+.section__6 {
+    margin: 0 auto;
+    width: 1140px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__6__content {
+    width: 427px;
+}
+
+.section__6__content__text {
+    margin-top: 29px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #898989;
+}
+
+
+.section__6__link {
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #898989;
+    padding: 7px;
+}
+
+.section__6__link:hover {
+    box-shadow: 0 0 10px 5px #9f9f9f;
+    background-color: #cfcfcf;
+    transition: 0.1s;
+}
+
+.section__6__content__headline {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+    padding: 10px;
+}
+
+/* footer */
+footer {
+    margin-top: 97px;
+    width: 1600px;
+    height: 79px;
+    background-color: #e6e6e6;
+}
+
+.footer__container {
+    width: 1140px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.copyrigh {
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #7a7a7a;
+}
+.network {
+    color: #fff;
+    background-color: #b2b2b2;
+    margin-right: 8px;
+    border-radius: 15%;
+}
+.network:hover {
+    background-color: #f16d7f;
     transition: 0.5s;
 }
