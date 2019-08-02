@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link rel="stylesheet" href="style/style.css">
     <title>checkout</title>
 </head>
+
 <body>
-    
+    <!-- Потолок -->
+    <div class="header">
+        <div class="container header__flex">
+            <div class="header__left">
+                <a href="#" class="logo">
+                    <img class="logo__img" src="img/logo.png" alt="Oops"> Bran <span class="logo__img__text">d</span>
+                </a>
+                <form class="header__form" action="#">
+                    <div class="block__browse"> <button class="browse" type="submit">Browse &nbsp; <i
+                                class="fas fa-sort-down"></i></button></div>
+                    <input class="input__text" placeholder="Search for Item..." type="text">
+                    <button class="header__form__button2" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="header__right">
+                <a href="checkout.html"> <img class="header__cart" src="img/cart.svg" alt="Oops"></a>
+                <a class="header__right__button" href="#">My Account &nbsp; <i
+                        class="fas fa-sort-down arrow_account"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- nav -->
+
+    <nav>
+        <ul class="menu">
+            <li class="menu__list"><a class="menu__link" href="index.html">Home</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Man</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Women</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Kids</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Accoseriese</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Featured</a></li>
+            <li class="menu__list"><a class="menu__link" href="#">Hot Deal</a></li>
+        </ul>
+    </nav>
+    <!-- section 1 -->
+    <main>
+        <section class="section__checkout__1">
+            <div class="section__checkout__1__container">
+                <h1 class="section__checkout__1__h">new arrivals</h1>
+                <p class="section__checkout__1__p">Home / Men / <span class="section__checkout__1__p__color"> new
+                        arrivals</span></p>
+            </div>
+        </section>
+        <section class="section__checkout__register">
+            <div class="section__checkout__register__menu">
+                <details>
+                    <summary> 01. Shipping Adress</summary>
+
+                </details>
+                <ol>
+                    <li class="section__checkout__register__menu__list"><a href="#"
+                            class="section__checkout__register__menu__link">Shipping Adress</a>
+                        <div class="section__checkout__register__menu__list__content">
+                            <div class="section__checkout__register__menu__list__content__left">
+                                <h3 class="section__checkout__register__menu__list__content__left__text">
+                                    Check as a guest or register
+                                    </p>
+                                    <p class="section__checkout__register__menu__list__content__left__text__2">
+                                        Register with us for future convenience
+                                    </p>
+                                    <form action="#">
+                                        <p><input type="radio" name="checkout" value="checkout"> checkout as guest</p>
+                                        <p><input type="radio" name="checkout" value="register"> register</p>
+                                    </form>
+                                    <h3 class="section__checkout__register__menu__list__content__left__text">register
+                                        and save time!</h3>
+                            </div>
+                            <div class="section__checkout__register__menu__list__content__right">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="section__checkout__register__menu__list"><a href="#"
+                            class="section__checkout__register__menu__link">BILLING INFORMATION</a></li>
+                    <li class="section__checkout__register__menu__list"><a href="#"
+                            class="section__checkout__register__menu__link">SHIPPING INFORMATION</a></li>
+                    <li class="section__checkout__register__menu__list"><a href="#"
+                            class="section__checkout__register__menu__link">SHIPPING METHOD</a></li>
+                    <li class="section__checkout__register__menu__list"><a href="#"
+                            class="section__checkout__register__menu__link">PAYMENT METHOD</a></li>
+                    <li class="section__checkout__register__menu__list"><a href="#"
+                            class="section__checkout__register__menu__link">ORDER REVIEW</a></li>
+                </ol>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
