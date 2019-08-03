@@ -176,6 +176,78 @@ li {
     border-radius: 75%;
 }
 
+/* подменю для женщин */
+.menu__list {
+    position: relative;
+}
+
+.drop {
+    background-color: #ffffff;
+    border-radius: 5.0px;
+    position: absolute;
+    display: none;
+}
+
+.menu__list:hover .drop {
+    display: flex;
+}
+
+.drop__flex {
+    padding: 12px 20px;
+}
+
+.nav__drop__headline {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #232323;
+    border-bottom: 1px solid #e8e8e8;
+    width: 235px;
+    margin-bottom: 17px;
+    padding-bottom: -4px;
+}
+
+.drop__menu__list:hover {
+    box-shadow: 0 0 5px 5px #9f9f9f;
+    background-color: #9f9f9f;
+}
+
+.drop__menu__link {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #646464;
+}
+
+.drop__menu__img__container {
+    background-image: url(../img/drop__menu.jpg);
+    width: 255px;
+    height: 118px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 22px;
+}
+
+.drop__menu__img__container__for__text {
+    width: 71px;
+    height: 45px;
+    padding: 15px 12px;
+}
+
+.drop__menu__img__container__text {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+
 /* section  1 */
 .section1 {
     height: 613px;
@@ -820,3 +892,6 @@ footer {
     text-transform: uppercase;
     color: #222222;
 }
+
+
+
