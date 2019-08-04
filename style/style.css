@@ -522,6 +522,7 @@ li {
 .section3__content__items:hover {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
+
 .section3__content__items:hover #stars {
     display: block;
 }
@@ -566,15 +567,14 @@ li {
     text-transform: uppercase;
     color: #222222;
     margin: 20px 0px 17px 10px;
-    /* margin-top: 20px;
-    margin-bottom: 17px;
-    margin-left: 10px; */
 }
+
 .section3__content__items__container__text2 {
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
 }
+
 .section3__content__items__text2 {
     font-size: 16px;
     font-weight: 700;
@@ -1028,8 +1028,6 @@ footer {
     width: 100%;
 }
 
-.section__single__page__3__container__content__cart__1 {}
-
 .section__single__page__3__container__content__cart__1__headline {
     font-size: 14px;
     line-height: 24px;
@@ -1081,10 +1079,12 @@ footer {
     align-items: center;
     margin-top: 28px;
 }
+
 .section__single__page__3__container__content__cart__1__button:hover {
     box-shadow: 0 0 5px 5px #ef5b70;
     background-color: #e4bdc4;
 }
+
 .section__single__page__3__container__content__cart__1__button__text {
     font-size: 16px;
     font-weight: 700;
@@ -1171,36 +1171,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* checkout.html */
 .section__nav__header__1 {
 
@@ -1246,11 +1216,13 @@ footer {
 
 .section__checkout__register {
     width: 1140px;
+    margin: 0 auto;
     margin-top: 97px;
 }
 
 .section__checkout__register__menu__list {
     list-style: decimal;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 .section__checkout__register__menu__link {
@@ -1259,4 +1231,91 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     color: #222222;
+}
+
+.section__checkout__register__menu__list__content__left {
+    height: 430px;
+}
+
+.section__checkout__register__menu__list__content__left__text {
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+.section__checkout__register__menu__list__content__left__text__2 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
+    margin-bottom: 34px;
+}
+
+.checkout__input__p {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+#checkout__input {
+    margin-bottom: 20px;
+    margin-right: 14px;
+}
+
+#button__continue {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    width: 180px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    margin-top: 18px;
+}
+
+#button__continue:hover {
+    box-shadow: 0 0 5px 5px #6f6e6e;
+    background-color: #6f6e6e;
+}
+
+.section__checkout__register__menu__list__content__left__text__p {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
+    margin-bottom: 33px;
+}
+
+.section__checkout__register__menu__list__content__left__text__p__2 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
+    margin-bottom: 15px;
+}
+
+.section__checkout__register__menu__list__content__right {
+    height: 430px;
+}
+
+.section__checkout__register__menu__list__content__right__text {
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.section__checkout__register__menu__list__content__right__text__2 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
 }
