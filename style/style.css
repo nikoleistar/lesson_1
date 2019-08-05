@@ -1225,12 +1225,18 @@ footer {
     border-bottom: 1px solid #e8e8e8;
 }
 
+
 .section__checkout__register__menu__link {
     font-size: 16px;
     line-height: 72px;
     font-weight: 700;
     text-transform: uppercase;
     color: #222222;
+}
+
+.section__checkout__register__menu__list__content {
+    display: flex;
+    justify-content: space-around;
 }
 
 .section__checkout__register__menu__list__content__left {
@@ -1318,4 +1324,71 @@ footer {
     line-height: 20px;
     font-weight: 400;
     color: #b3b2b2;
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+.section__checkout__input__text {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 16px;
+
+}
+
+.section__checkout__input__text:after {
+    content: "*";
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ff0d0d;
+    padding-left: 5px;
+}
+
+#section__checkout__email__input,
+#section__checkout__password__input {
+    width: 390px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 22px;
+    box-sizing: border-box;
+}
+
+.section__checkout__register__menu__list__content__right__text__3 {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ff0d0d;
+}
+
+.section__checkout__register__menu__list__content__right__container__button {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.section__checkout__register__menu__list__content__right__button {
+    width: 180px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    margin-right: 32px;
+    box-sizing: border-box;
+}
+
+.section__checkout__register__menu__list__content__right__button:hover {
+    box-shadow: 0 0 5px 5px #6f6e6e;
+    background-color: #6f6e6e;
+}
+
+.section__checkout__register__menu__list__content__right__button__text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #222222;
+
 }
