@@ -1220,23 +1220,10 @@ footer {
     margin-top: 97px;
 }
 
-.section__checkout__register__menu__list {
-    list-style: decimal;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-
-.section__checkout__register__menu__link {
-    font-size: 16px;
-    line-height: 72px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #222222;
-}
-
 .section__checkout__register__menu__list__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 39px 39px 0 39px;
 }
 
 .section__checkout__register__menu__list__content__left {
@@ -1390,5 +1377,28 @@ footer {
     line-height: 20px;
     font-weight: 400;
     color: #222222;
+}
 
+#checkout__summary::after {
+    display: block;
+    content: "";
+}
+
+#checkout__summary::-webkit-details-marker {
+    display: none;
+}
+
+#checkout__summary {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+#checkout__details {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 33px 0 33px 0;
+}
+.checkout__details {
+    margin-bottom: 60px;
 }
