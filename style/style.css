@@ -880,12 +880,14 @@ footer {
     background-color: #b2b2b2;
     margin-right: 8px;
     border-radius: 15%;
+    font-size: 32px;
 }
 
 .network:hover {
     background-color: #f16d7f;
-    transition: 0.5s;
+    color: #fff;
 }
+
 
 
 /* single__page.html */
@@ -1401,4 +1403,18 @@ footer {
 }
 .checkout__details {
     margin-bottom: 60px;
+}
+
+
+/* product */
+
+#details__product {
+width: 243px;
+}
+#summary__product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-left: 11px;
 }
