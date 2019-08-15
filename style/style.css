@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
 }
+/* анимацЪ */
+/* animation: sweep 1s ease; */
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-left: -20px
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0px
+    }
+}
+
+
+
+
 
 body {
     font-family: 'Lato', sans-serif;
@@ -299,7 +316,7 @@ li {
     width: 225px;
     text-align: center;
     margin: 0 auto;
-    
+
 }
 
 .header__right__list__drop__container__content__button2 {
@@ -319,7 +336,7 @@ li {
 }
 
 .header__right__list__drop__container__content__button:hover,
-.header__right__list__drop__container__content__button2:hover{
+.header__right__list__drop__container__content__button2:hover {
     background-color: rgb(122, 122, 122);
     transition: background 1s;
     box-shadow: 0 0 1px 1px #222224;
@@ -1359,12 +1376,13 @@ footer {
 
 .section__checkout__register__menu__list__content {
     display: flex;
-    justify-content: space-between;
-    margin: 39px 39px 0 39px;
+    
+    padding: 39px 39px 0 39px;
 }
 
 .section__checkout__register__menu__list__content__left {
     height: 430px;
+    width: 550px;
 }
 
 .section__checkout__register__menu__list__content__left__text {
@@ -1391,6 +1409,7 @@ footer {
     text-transform: uppercase;
     color: #222222;
     display: block;
+    width: 150px;
 }
 
 .checkout__input__l:hover {
@@ -1465,7 +1484,12 @@ footer {
     font-weight: 400;
     color: #222222;
     margin-bottom: 16px;
+    cursor: pointer;
+    display: block;
+}
 
+.section__checkout__input__text:hover {
+    color: #814545;
 }
 
 .section__checkout__input__text:after {
@@ -1541,22 +1565,33 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     color: #222222;
+    outline: none;
+    height: 60px;
+    display: flex;
+    align-items: center;
 }
-
+#checkout__summary:hover{
+    background-color: #9b9b9b;
+}
 #checkout__details {
     border-bottom: 1px solid #e8e8e8;
-    padding: 33px 0 33px 0;
+    /* padding: 33px 0 33px 0; */
 }
 
 .checkout__details {
     margin-bottom: 60px;
 }
 
-#checkout__summary:hover {
-    cursor: pointer;
+details[open] summary~* {
+    animation: sweep 1s ease;
 }
 
-/* product */
+#checkout__summary:hover {
+    cursor: pointer;
+    
+}
+
+/* product.html */
 .product__container {
     margin: 0 auto;
     width: 1140px;
@@ -1625,7 +1660,7 @@ footer {
 }
 
 
-.specification__ headline {
+.specification__headline {
     font-size: 14px;
     line-height: 20px;
     font-weight: 700;
