@@ -201,6 +201,141 @@ li {
     background-color: rgb(0, 0, 0, 0.3);
 }
 
+/* вылезающее из корзины */
+
+.header__right__list__drop {
+    width: 262px;
+    /* height: 440px; */
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    /* z-index: 2; */
+}
+
+.header__right__list {
+    position: relative;
+}
+
+.header__right__list:hover .header__right__list__drop {
+    display: block;
+}
+
+.header__right__list__drop__container__content {
+    width: 229px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(237, 237, 237, 0.74);
+    margin-top: 21px;
+    padding-bottom: 16px;
+}
+
+.list__drop__container__content__headline {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.list__drop__container__content__stars {
+    font-size: 12px;
+    font-weight: 400;
+    color: #e4af48;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.list__drop__container__content__price {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f16d7f;
+}
+
+.header__right__list__drop__container__content__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 157px;
+    margin-left: 15px;
+}
+
+.list__drop__container__content__delete {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #c0c0c0;
+}
+
+.list__drop__container__content__delete:hover {
+    color: #646464;
+}
+
+.header__right__list__drop__container__content__total {
+    justify-content: space-between;
+    width: 229px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 19px;
+    margin-bottom: 32px;
+}
+
+.total__price {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.header__right__list__drop__container__content__button {
+    border: 1.0px solid #f16d7f;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
+    padding: 16.5px 0px;
+    display: block;
+    width: 225px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.header__right__list__drop__container__content__button2 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    padding: 16.5px 0px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    display: block;
+    width: 225px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}
+
+.header__right__list__drop__container__content__button:hover,
+.header__right__list__drop__container__content__button2:hover{
+    background-color: rgb(122, 122, 122);
+    transition: background 1s;
+    box-shadow: 0 0 1px 1px #222224;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Меню nav */
 .menu {
     display: flex;
@@ -1257,10 +1392,12 @@ footer {
     color: #222222;
     display: block;
 }
+
 .checkout__input__l:hover {
     color: #814545;
     cursor: pointer;
 }
+
 #checkout__input__checkout,
 #checkout__input__register {
     margin-bottom: 20px;
@@ -1385,9 +1522,11 @@ footer {
     font-weight: 400;
     color: #222222;
 }
+
 .section__checkout__register__menu__list__content__right__button__text:hover {
     color: #636363;
 }
+
 #checkout__summary::after {
     display: block;
     content: "";
@@ -1412,6 +1551,7 @@ footer {
 .checkout__details {
     margin-bottom: 60px;
 }
+
 #checkout__summary:hover {
     cursor: pointer;
 }
