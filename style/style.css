@@ -316,6 +316,7 @@ li {
     width: 225px;
     text-align: center;
     margin: 0 auto;
+    transform: scale(0.9);
 
 }
 
@@ -333,25 +334,16 @@ li {
     margin: 0 auto;
     margin-top: 11px;
     margin-bottom: 20px;
+    transform: scale(0.9);
 }
 
 .header__right__list__drop__container__content__button:hover,
 .header__right__list__drop__container__content__button2:hover {
     background-color: rgb(122, 122, 122);
-    transition: background 1s;
+    transition: all 1s;
     box-shadow: 0 0 1px 1px #222224;
+    transform: scale(1.0);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Меню nav */
 .menu {
