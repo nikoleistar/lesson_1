@@ -677,7 +677,7 @@ li {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
-.section3__content__items:hover #stars {
+.section3__content__items:hover .stars__index {
     display: block;
 }
 
@@ -1310,11 +1310,11 @@ footer {
     justify-content: space-between;
 }
 
-#stars {
+.stars__index {
     display: none;
 }
 
-.section__single__page__4__container__1:hover #stars {
+.section__single__page__4__container__1:hover .stars__index {
     display: block;
 }
 
@@ -1374,6 +1374,7 @@ footer {
     width: 1140px;
     margin: 0 auto;
     margin-top: 97px;
+    margin-bottom: 60px;
 }
 
 .section__checkout__register__menu__list__content {
@@ -1553,16 +1554,16 @@ footer {
     color: #636363;
 }
 
-#checkout__summary::after {
+.checkout__summary::after {
     display: block;
     content: "";
 }
 
-#checkout__summary::-webkit-details-marker {
+.checkout__summary::-webkit-details-marker {
     display: none;
 }
 
-#checkout__summary {
+.checkout__summary {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1573,23 +1574,19 @@ footer {
     align-items: center;
 }
 
-#checkout__summary:hover {
+.checkout__summary:hover {
     background-color: #9b9b9b;
 }
 
-#checkout__details {
-    border-bottom: 1px solid #e8e8e8;
-}
-
 .checkout__details {
-    margin-bottom: 60px;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 details[open] summary~* {
     animation: sweep 1s ease;
 }
 
-#checkout__summary:hover {
+.checkout__summary:hover {
     cursor: pointer;
 }
 
@@ -1882,11 +1879,13 @@ details[open] summary~* {
     font-weight: 300;
     color: #c4c4c4;
 }
+
 .pagination__left__link:hover {
     color: rgb(150, 0, 0);
     font-weight: 700;
     background-color: rgb(92, 92, 92);
 }
+
 /* offer */
 .offer {
     background-color: #222224;
@@ -1895,11 +1894,13 @@ details[open] summary~* {
     display: flex;
     align-items: center;
 }
+
 .offer__container {
     width: 1140px;
     display: flex;
     margin: 0 auto;
 }
+
 .section__4__right__content__text__product {
     text-align: center;
     width: 219px;
@@ -1909,9 +1910,240 @@ details[open] summary~* {
 .offer__content__text {
     text-align: center;
 }
+
 .offer__img {
     margin-bottom: 24px;
 }
-.offer__img__set{
+
+.offer__img__set {
     margin-bottom: 17px;
+}
+
+
+
+
+
+
+/* shopping Cart.html */
+.product__details {
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 63px;
+    margin-top: 90px;
+}
+
+.product__details__headline__container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.0px solid #eaeaea;
+    margin-bottom: 22px;
+    padding-bottom: 20px;
+}
+
+.product__details__content__all {
+    border-bottom: 1.0px solid #eaeaea;
+    padding-bottom: 25px;
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product__details__content {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin-right: 263px;
+
+}
+
+.product__details__headline {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.015em;
+    color: #222222;
+}
+
+.product__details__headline:first-child {
+    margin-right: 445px;
+}
+
+.product__details__content__text_one,
+.product__details__content__text_two {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.product__details__content__text_one::after {
+    content: "Red";
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #6f6e6e;
+}
+
+.product__details__content__text_two::after {
+    content: "XII";
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #6f6e6e;
+}
+
+.product__details__content__headline {
+    /* margin-bottom: 38px; */
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+}
+.stars__shopping {
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+.product__details__content__category {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #656565;
+}
+
+.product__details__content__category__input {
+    width: 54px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    text-align: center;
+}
+
+.fa-times-circle-2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #c0c0c0;
+    margin-right: 15px;
+}
+.fa-times-circle-2:hover {
+    color: #fa0b0b;
+}
+
+/* после контента адрес */
+.shopping__adress {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 79px;
+}
+
+.geo__adress {
+    width: 360px;
+}
+
+.geo__adress__headline {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 22px;
+}
+
+.geo__adress__input {
+    width: 355px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    padding-left: 18px;
+    padding-right: 12px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #b1b1b1;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.geo__adress__button {
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    width: 100px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    outline: none;
+}
+
+.geo__adress__button:hover {
+    background-color: rgb(185, 0, 0);
+    box-shadow: 0 0 5px 5px #b1000f;
+}
+
+.geo__adress__p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.geo__adress__3 {
+    background-color: #f5f3f3;
+    width: 360px;
+    height: 214px;
+    text-align: center;
+}
+
+.geo__adress__3__content {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 22px;
+    margin-bottom: 17px;
+    text-align: right;
+    margin: 40px 40px 0 40px;
+}
+
+.geo__adress_price {
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+.geo__adress__total {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 14px;
+}
+
+.geo__adress__total__color {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.geo__adress__button__color {
+    width: 273px;
+    height: 50px;
+    background-color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    outline: none;
+    margin-top: 17px;
+}
+
+.geo__adress__button__color:hover {
+    background-color: rgb(185, 0, 0);
+    box-shadow: 0 0 5px 5px #b1000f;
 }
