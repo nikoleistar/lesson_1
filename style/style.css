@@ -1971,6 +1971,7 @@ details[open] summary~* {
     color: #222222;
 }
 
+
 .product__details__headline:first-child {
     margin-right: 445px;
 }
@@ -2007,7 +2008,9 @@ details[open] summary~* {
     text-transform: uppercase;
     color: #222222;
 }
-
+.product__details__content__headline:hover {
+    color: rgb(122, 122, 122);
+}
 .stars__shopping {
     margin-top: 11px;
     margin-bottom: 15px;
